@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: stable-diffusion-cm
+  namespace: gpu-demo
+data:
+  CLI_FLAGS: "--extra-models-cpu --optimized-turbo"
